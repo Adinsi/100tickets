@@ -1,0 +1,52 @@
+.formulaire{
+background-color: whitesmoke;
+height: auto;
+margin-top: 90px;
+    a{
+        font-size: 1.8rem;
+        color: black;
+        cursor: pointer;
+    margin: 0 10px;
+    }
+
+    form{
+        text-align: center;
+        line-height: 50px;
+
+        input{
+            width: auto;
+            height: 40px;
+            border-radius: 20px;
+            border-color: aqua;
+            padding: 15px;
+            margin: 5px;
+            box-shadow: 10px 10px 15px #cdef;
+            transition: 1s all ease;
+            &:hover{
+                transform: translateX(15px);
+            }
+        }
+
+        input::placeholder{
+           font-family: cursive;
+           font-weight: bolder;
+       
+
+        }
+
+        input:focus{
+            background-color:aqua;
+          
+          font-family: cursive;
+        }
+
+        input[type="submit"]{
+            width: 180px;
+            margin-top: 30px;
+            transform: translateX(0);
+            cursor: pointer;
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+.heroesCalendar{
+    background-image: url('../../../public/assets/img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+ margin-top: 80px;
+    padding: 0;
+    position: relative;
+    h2{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        font-family: cursive;
+        font-size: 2rem;
+        color: wheat;
+    }
+}
+
+@media screen and (min-width : 350px) and (max-width: 800px) {
+    .heroesCalendar{
+        margin-top: 20px;
+    }
+}

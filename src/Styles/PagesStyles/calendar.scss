@@ -1,0 +1,75 @@
+.sectionCalendar{
+    background-color: whitesmoke;
+    .buttonmatch{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        align-content: center;
+        position: fixed;
+  
+        top: 80px;
+       
+       
+   
+    
+  
+    
+        a{
+    
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 15px;
+    
+    
+    button{
+        background-color: #007C53;
+        border: none;
+        padding: 5px;
+        box-shadow: 35px 35px 38px ;
+        cursor: pointer;
+        font-family: cursive;
+    }
+    
+    
+        }
+    
+    }
+    
+    .program{
+            color: #007C53;
+            text-indent: 30px;
+            border-bottom: 1px solid #007C53;
+            display: inline;
+            text-shadow: 2px 2px 5px #007C53;
+            user-select: none;
+            
+        
+
+    
+        
+        }
+
+        .can{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            .calendarElement{
+                padding: 10px;
+                margin: 5px;
+                .calendarComponent{
+                    box-shadow: 5px 5px 8px ;
+                    border-radius: 20px;
+                    padding: 10px;
+                    img{
+                        border-radius: 100%;
+                        margin-top: 5px;
+                    }
+                }
+
+            }
+        }
+        
+    
+}

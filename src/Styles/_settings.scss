@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+   
+    $Colorprincipal : #E1CF44;
+$ColorSecondaire : rgb(50, 188, 50);
+$ColorTri : rgb(186, 22, 22);
+
+
+$font_principal : 'Poppins' sans-serif;
+$font_secondary : 'Roboto' sans-serif;
+$font-tri: 'cursive';
+$max-height : '1200px';
+$min-height : '400px';
+a{
+    text-decoration: none;
+ 
+    display: block;
+    
+}
+
+a:active{
+color:gray;
+
+}
+
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family:cursive;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  
+ 
+}
+
+*{
+    box-sizing: border-box;
+   
+   
+}
+
+html{
+scroll-behavior: smooth;
+
+
+}
+
+button{
+    border-radius: 20px;
+    border-color: #E1CF44;
+}
+
+
+
+
+
+
+
+
